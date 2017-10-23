@@ -1,0 +1,22 @@
+{
+  "name": "test-jquery-types-only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/hello.ts",
+  "scripts": {
+    "start-server": "webpack --watch | webpack-dev-server --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/angular": "^1.6.34",
+    "angular": "^1.6.6",
+    "link": "^0.1.5",
+    "npm": "^5.5.1",
+    "ts-loader": "^3.0.5",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
